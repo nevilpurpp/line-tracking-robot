@@ -14,7 +14,11 @@ LEFT_MOTOR_BACKWARD_PIN = 18
 RIGHT_MOTOR_FORWARD_PIN = 22
 RIGHT_MOTOR_BACKWARD_PIN = 23
 LEFT_MOTOR_PWM_PIN = 27  # PWM pin for left motor
-RIGHT_MOTOR_PWM_PIN = 24  # PWM pin for right moto
+RIGHT_MOTOR_PWM_PIN = 24  # PWM pin for right motor
+
+#gpio pins for TRIG and ECHO
+TRIG = 25
+ECHO =26
 
 # setup GPIO mode
 GPIO.setmode(GPIO.BCM)
